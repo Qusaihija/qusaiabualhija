@@ -2,42 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>152251</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Qusai Abu-Alhija</h1>
-        <p>Major: Cyber Security</p>
-        <p>Soft Skills: [List your soft skills here]</p>
+        <h1>Qusai Abu Al-Hija</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#future">In 5 Years</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
     <main>
-        <section>
+        <section id="about">
             <h2>About Me</h2>
-            <img src="your_image.jpg" alt="Your Name">
-            <table>
-                <tr>
-                    <th>Programming Languages</th>
-                    <th>More Information</th>
-                </tr>
-                <tr>
-                    <td>HTML</td>
-                    <td><a href="#">Learn more</a></td>
-                </tr>
-                <!-- Add more rows for other programming languages -->
-            </table>
-            <p><a href="mailto:your.email@example.com">Contact Me</a></p>
+            <p>
+                Welcome! I am a dedicated and hardworking individual with a passion for cybersecurity. With my strong technical skills and ability to work well in a team, I strive to be an excellent candidate for any cybersecurity position.
+            </p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Proficient in Python, C, C++, and JavaScript</li>
+                <li>Familiar with network security, encryption, and secure coding principles</li>
+                <li>Strong problem-solving skills</li>
+                <li>Detail-oriented with a focus on accuracy and quality</li>
+                <li>Excellent written and verbal communication skills</li>
+                <li>Ability to work effectively in a team and independently</li>
+                <li>Demonstrated ability to work hard and achieve goals</li>
+            </ul>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <p>
+                I am currently studying at the Jordan University of Science and Technology in Irbid, Jordan. My current grade is 3.93.
+            </p>
+        </section>
+        <section id="future">
+            <h2>In 5 Years</h2>
+            <p>
+                As a cybersecurity specialist, I envision myself becoming an expert in the field with a deep understanding of emerging threats and innovative solutions to protect against them. I am committed to continuously expanding my knowledge and skills by staying up-to-date with the latest technologies and best practices. In addition, I aim to mentor junior cybersecurity professionals, sharing my experiences and helping them develop their own expertise. Furthermore, I aspire to play a significant role in shaping the cybersecurity landscape through thought leadership and advocacy, emphasizing the importance of cybersecurity to individuals and organizations in our ever-evolving digital world. I am enthusiastic about the future of cybersecurity and the opportunities it presents for innovation and collaboration.
+            </p>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>
+                Feel free to reach out to me at <a href="mailto:qusayaboalhiga113@gmail.com">qusayaboalhiga113@gmail.com</a>.
+            </p>
+        </section>
+        <section id="contact-form">
+            <h2>Contact Me</h2>
+            <form action="submit.php" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country">
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
-    </footer>
 </body>
 </html>
