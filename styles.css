@@ -1,77 +1,81 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #F5F5F5;
-    color: #333333;
     margin: 0;
     padding: 0;
+    background-color: #f0f0f0;
 }
 
 header {
-    background-color: #1E88E5;
+    background-color: #333;
+    color: #fff;
     padding: 20px;
     text-align: center;
-}
-
-h1 {
-    color: #FFFFFF;
-    font-size: 32px;
-    margin: 0;
-}
-
-nav {
-    margin-top: 20px;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
 nav ul li {
-    display: inline-block;
-    margin: 0 10px;
+    display: inline;
+    margin-right: 20px;
 }
 
 nav ul li a {
-    color: #FFFFFF;
+    color: #fff;
     text-decoration: none;
-    font-size: 18px;
 }
 
 main {
-    max-width: 800px;
-    margin: 20px auto;
     padding: 20px;
-    background-color: #FFFFFF;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-    color: #1E88E5;
-    font-size: 24px;
-    margin: 0 0 20px;
+section {
+    margin-bottom: 20px;
 }
 
-p {
-    line-height: 1.6;
-    margin: 0 0 20px;
+table {
+    width: 100%;
+    border-collapse: collapse;
 }
 
-ul {
-    margin: 0 0 20px;
-    padding-left: 20px;
+table, th, td {
+    border: 1px solid #333;
+    padding: 8px;
 }
 
-ul li {
-    list-style-type: disc;
+caption {
+    font-weight: bold;
 }
 
-a {
-    color: #1E88E5;
+form {
+    width: 50%;
+    margin: 0 auto;
 }
 
-a:hover {
-    text-decoration: underline;
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
 }
